@@ -33,13 +33,12 @@ const MovieDetails = () => {
     setLoading(true);
     const options = {
       method: "GET",
-      url: `https://api.themoviedb.org/3/movie/${id}?api_key=d24906ca792a26dbac0b6be3b7c76e8c`,
+      url: `https://api.themoviedb.org/3/movie/${id}?api_key=`,
       params: { language: "ar" },
       headers: {
         accept: "application/json",
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMjQ5MDZjYTc5MmEyNmRiYWMwYjZiZTNiN2M3NmU4YyIsInN1YiI6IjY0NjFmODY0NmUwZDcyMDExZWFiMDFkMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E7wd_BeHKnykuNolGHzbXe2tszF_Rev19HtD51fhyuI",
-      },
+          "Bearer "  },
     };
 
     try {
