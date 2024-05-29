@@ -19,8 +19,7 @@ export const getMovies = (page = 1, search = "") => {
             params: { include_video: "true", page: page },
             headers: {
                 accept: "application/json",
-                Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMjQ5MDZjYTc5MmEyNmRiYWMwYjZiZTNiN2M3NmU4YyIsInN1YiI6IjY0NjFmODY0NmUwZDcyMDExZWFiMDFkMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E7wd_BeHKnykuNolGHzbXe2tszF_Rev19HtD51fhyuI",
-            },
+                Authorization: "Bearer "  },
         };
 
         try {
